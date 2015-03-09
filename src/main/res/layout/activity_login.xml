@@ -7,9 +7,9 @@
 
     <ImageView
         android:layout_width="fill_parent"  android:layout_height="0dp"  android:layout_weight="5"  android:gravity="center"
-        android:src="@drawable/loggo"/>
+        android:src="@drawable/sportsmatchloggo"/>
 
-    <Button
+    <com.kakao.widget.LoginButton
         android:id="@+id/kakaologinBtn" android:layout_width="fill_parent"  android:layout_height="0dp"  android:layout_weight="1"
         android:layout_margin="20dp"  android:text="kakaoLOGIN"  android:layout_gravity="center"/>
 

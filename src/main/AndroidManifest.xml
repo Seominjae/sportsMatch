@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.xnote.sportsmatch" >
+    package="com.example.xnote.sportsmatch"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/loggo"
+        android:icon="@drawable/sportsmatchloggo"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon,android:theme"
+        >
         <activity
             android:name=".introActivity"
             android:label="@string/app_name"
@@ -21,10 +24,31 @@
             android:name=".MainActivity"
             android:label="@string/title_activity_main" >
         </activity>
+
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login" >
         </activity>
+
+        <activity
+            android:name=".KakaoTalkLoginActivity"
+            android:label="@string/KakaoTalkLoginActivity" >
+        </activity>
+
+        <activity
+            android:name=".KakaoTalkMainActivity"
+            android:label="@string/KakaoTalkSignupActivity" >
+        </activity>
+
+        <activity
+            android:name=".KakaoTalkSignupActivity"
+            android:label="@string/KakaoTalkSignupActivity" >
+        </activity>
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="@string/kakao_app_key" />
+
     </application>
 
 </manifest>

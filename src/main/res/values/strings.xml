@@ -20,5 +20,10 @@
     <string name="writefindmercenary">write find mercenary</string>
     <string name="writebemercenary">write be mercenary</string>
     <string name="title_activity_login">LoginActivity</string>
-
+    <string name="kakao_app_key">8f46fa9b1bf625a051ef2d186c42e607</string>
+    <string name="title_activity_sample">sample</string>
+    <string name="profile_button">profile</string>
+    <string name="country_label">country ISO</string>
+    <string name="KakaoTalkLoginActivity">KakaoTalkLoginActivity</string>
+    <string name="KakaoTalkSignupActivity">KakaoTalkSignupActivity</string>
 </resources>

@@ -23,7 +23,7 @@ public class introActivity extends Activity {
 
     Runnable irun = new Runnable() {
         public void run() {
-            Intent mIntent = new Intent(introActivity.this, LoginActivity.class);
+            Intent mIntent = new Intent(introActivity.this, KakaoTalkLoginActivity.class);
             startActivity(mIntent);
             finish();
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
